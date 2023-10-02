@@ -83,6 +83,11 @@
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.2.2"
   },
+  "pnpm": {
+    "patchedDependencies": {
+      "@types/supertest@2.0.13": "patches/@types__supertest@2.0.13.patch"
+    }
+  },
   "jest": {
     "moduleFileExtensions": [
       "js",

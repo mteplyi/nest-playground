@@ -147,7 +147,7 @@ const config = {
 
     {
       files: '*',
-      extends: 'plugin:prettier/recommended',
+      extends: ['plugin:prettier/recommended', 'plugin:@cspell/recommended'],
     },
   ],
 };

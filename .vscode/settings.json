@@ -2,6 +2,9 @@
   "npm.packageManager": "pnpm",
   "eslint.format.enable": true,
   "eslint.useESLintClass": true,
+  "eslint.rules.customizations": [
+    { "rule": "@cspell/spellchecker", "severity": "off" },
+  ],
   "eslint.validate": ["json", "jsonc", "json5"],
   "prettier.requireConfig": true,
   "prettier.useEditorConfig": true,

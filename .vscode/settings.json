@@ -1,3 +1,33 @@
 {
   "npm.packageManager": "pnpm",
+  "eslint.format.enable": true,
+  "eslint.useESLintClass": true,
+  "eslint.validate": ["json", "jsonc", "json5"],
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[json5]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "json.schemas": [
+    {
+      "fileMatch": ["*.jsonc"],
+      "schema": {
+        "allowTrailingCommas": true,
+      },
+    },
+  ],
+  "typescript.check.npmIsInstalled": false,
+  "typescript.disableAutomaticTypeAcquisition": true,
 }

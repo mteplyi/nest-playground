@@ -1,0 +1,5 @@
+# IDE - VSCode
+!.vscode/
+
+# compiled output
+/dist/

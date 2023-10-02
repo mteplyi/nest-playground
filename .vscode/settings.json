@@ -30,4 +30,16 @@
   ],
   "typescript.check.npmIsInstalled": false,
   "typescript.disableAutomaticTypeAcquisition": true,
+  "cSpell.words": [
+    "dbaeumer",
+    "donjayamanne",
+    "eamodio",
+    "esbenp",
+    "ghmcadams",
+    "githistory",
+    "katjanakosic",
+    "kohler",
+    "lintlens",
+    "wayou",
+  ],
 }

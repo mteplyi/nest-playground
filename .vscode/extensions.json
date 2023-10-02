@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "ghmcadams.lintlens",
+    "katjanakosic.vscode-json5",
+    "streetsidesoftware.code-spell-checker",
+    "wayou.vscode-todo-highlight",
+  ],
+}

@@ -57,7 +57,7 @@
     "@types/jest": "^29.5.5",
     "@types/lint-staged": "^13.2.0",
     "@types/node": "^20.8.0",
-    "@types/supertest": "^2.0.13",
+    "@types/supertest": "^2.0.14",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
     "eslint": "^8.50.0",
@@ -84,11 +84,6 @@
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.2.2"
-  },
-  "pnpm": {
-    "patchedDependencies": {
-      "@types/supertest@2.0.13": "patches/@types__supertest@2.0.13.patch"
-    }
   },
   "jest": {
     "moduleFileExtensions": [

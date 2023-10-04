@@ -1,8 +1,7 @@
 # Compiled output
-/dist/
 /node_modules/
-*.tsbuildinfo
-.eslintcache
+/dist/
+/cache/
 
 # Logs
 logs
@@ -38,5 +37,5 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 # Playground
-/playground/
+/playground/*
 !/playground/.gitkeep

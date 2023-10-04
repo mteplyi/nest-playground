@@ -8,7 +8,8 @@
       "decorators": true,
       "dynamicImport": true
     },
-    "keepClassNames": true
+    "keepClassNames": true,
+    "baseUrl": ".."
   },
   "exclude": [".spec.ts", "reset.d.ts"]
 }

@@ -1,5 +1,6 @@
+# Compiled output
+/dist/
+/cache/
+
 # IDE - VSCode
 !.vscode/
-
-# compiled output
-/dist/

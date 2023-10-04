@@ -1,7 +1,7 @@
 const { jsoncFiles } = require('./package.json').config;
 
 /** @satisfies {import("prettier").Config} */
-const config = {
+const prettierConfig = {
   singleQuote: true,
 
   overrides: [
@@ -16,4 +16,4 @@ const config = {
   ],
 };
 
-module.exports = config;
+module.exports = prettierConfig;
